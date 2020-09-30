@@ -2,12 +2,12 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { View, Text, Button } from "react-native";
 
-export default function TeacherDashboard() {
+export default function TeacherProfile() {
   const { navigate } = useNavigation();
 
   return (
     <View>
-      <Text>TEACHER DASHBOARD</Text>
+      <Text>TEACHER PROFILE</Text>
     </View>
   );
 }
