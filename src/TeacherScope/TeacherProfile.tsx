@@ -8,6 +8,10 @@ export default function TeacherProfile() {
   return (
     <View>
       <Text>TEACHER PROFILE</Text>
+      <Button
+        title="Editar Perfil"
+        onPress={() => navigate("TeacherProfileEdit")}
+      ></Button>
     </View>
   );
 }
