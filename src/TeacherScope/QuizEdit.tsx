@@ -2,12 +2,12 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { View, Text, Button } from "react-native";
 
-export default function ManageQuizzes() {
+export default function QuizEdit() {
   const { navigate } = useNavigation();
 
   return (
     <View>
-      <Text>MANAGE QUIZZES</Text>
+      <Text>QUIZ EDIT</Text>
     </View>
   );
 }

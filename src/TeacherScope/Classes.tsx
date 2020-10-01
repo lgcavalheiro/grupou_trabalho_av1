@@ -8,6 +8,12 @@ export default function Classes() {
   return (
     <View>
       <Text>CLASSES</Text>
+      <Button
+        title="Editar Disciplinas"
+        onPress={() => {
+          navigate("ClassesEdit");
+        }}
+      ></Button>
     </View>
   );
 }

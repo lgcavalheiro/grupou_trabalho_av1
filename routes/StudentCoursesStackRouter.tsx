@@ -2,19 +2,19 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import TeacherProfile from "../src/TeacherScope/TeacherProfile";
-import TeacherProfileEdit from "../src/TeacherScope/TeacherProfileEdit";
+import StudentCourses from "../src/StudentScope/StudentCourses";
+import StudentCoursesEdit from "../src/StudentScope/StudentCoursesEdit";
 
 const { Navigator, Screen } = createStackNavigator();
 
-export default function TeacherStackRouter() {
+export default function StudentCoursesStackRouter() {
   return (
     <NavigationContainer independent={true}>
       <Navigator>
-        <Screen name="TeacherProfile" component={TeacherProfile}></Screen>
+        <Screen name="StudentCourses" component={StudentCourses}></Screen>
         <Screen
-          name="TeacherProfileEdit"
-          component={TeacherProfileEdit}
+          name="StudentCoursesEdit"
+          component={StudentCoursesEdit}
         ></Screen>
       </Navigator>
     </NavigationContainer>

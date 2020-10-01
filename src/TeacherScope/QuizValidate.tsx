@@ -2,14 +2,12 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { View, Text, Button } from "react-native";
 
-import TeacherDrawerRouter from "../../routes/TeacherDrawerRouter";
-
-export default function TeacherDashboard() {
+export default function QuizValidate() {
   const { navigate } = useNavigation();
 
   return (
-    <>
-      <TeacherDrawerRouter />
-    </>
+    <View>
+      <Text>QUIZ VALIDATE</Text>
+    </View>
   );
 }

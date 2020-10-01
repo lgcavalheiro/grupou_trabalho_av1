@@ -8,6 +8,12 @@ export default function StudentCourses() {
   return (
     <View>
       <Text>STUDENT COURSES</Text>
+      <Button
+        title="Adicionar curso"
+        onPress={() => {
+          navigate("StudentCoursesEdit");
+        }}
+      ></Button>
     </View>
   );
 }
