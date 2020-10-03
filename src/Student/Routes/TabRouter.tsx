@@ -2,13 +2,13 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import StudentGroups from "../Groups/StudentGroups";
-import StudentGroupChat from "../Groups/StudentGroupChat";
-import StudentGroupActivities from "../Groups/StudentGroupActivities";
+import StudentGroups from "../Groups/Groups";
+import StudentGroupChat from "../Groups/GroupChat";
+import StudentGroupActivities from "../Groups/GroupActivities";
 
-import StudentSkills from "../Skills/StudentSkills";
-import StudentSkillsEdit from "../Skills/StudentSkillsEdit";
-import StudentSkillsQuiz from "../Skills/StudentSkillsQuiz";
+import StudentSkills from "../Skills/Skills";
+import StudentSkillsEdit from "../Skills/SkillsEdit";
+import StudentSkillsQuiz from "../Skills/SkillsQuiz";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 

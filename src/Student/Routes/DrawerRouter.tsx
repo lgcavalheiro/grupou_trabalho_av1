@@ -7,11 +7,11 @@ import {
   DrawerItem,
 } from "@react-navigation/drawer";
 
-import { Courses, Profile } from "./StudentStackRouter";
-import { Group, Skills } from "./StudentTabRouter";
+import { Courses, Profile } from "./StackRouter";
+import { Group, Skills } from "./TabRouter";
 
 import Feedback360 from "../Other/Feedback360";
-import StudentGrades from "../Other/StudentGrades";
+import StudentGrades from "../Other/Grades";
 
 const { Navigator, Screen } = createDrawerNavigator();
 

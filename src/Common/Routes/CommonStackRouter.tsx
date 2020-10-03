@@ -3,11 +3,11 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
 import Landing from "../Landing";
-import StudentSignIn from "../../Student/PreAuth/StudentSignIn";
+import StudentSignIn from "../../Student/PreAuth/SignIn";
 import TeacherSignIn from "../../Teacher/PreAuth/TeacherSignIn";
-import CreateStudentAccount from "../../Student/PreAuth/CreateStudentAccount";
+import CreateStudentAccount from "../../Student/PreAuth/CreateAccount";
 import CreateTeacherAccount from "../../Teacher/PreAuth/CreateTeacherAccount";
-import StudentDashboard from "../../Student/Other/StudentDashboard";
+import StudentDashboard from "../../Student/Other/Dashboard";
 import TeacherDashboard from "../../Teacher/Other/TeacherDashboard";
 
 const { Navigator, Screen } = createStackNavigator();
