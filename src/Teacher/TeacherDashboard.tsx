@@ -1,8 +1,7 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
-import { View, Text, Button } from "react-native";
 
-import TeacherDrawerRouter from "../../routes/TeacherDrawerRouter";
+import TeacherDrawerRouter from "./Routes/TeacherDrawerRouter";
 
 export default function TeacherDashboard() {
   const { navigate } = useNavigation();

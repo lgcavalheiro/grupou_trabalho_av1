@@ -2,12 +2,26 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import TeacherProfile from "../src/TeacherScope/TeacherProfile";
-import TeacherProfileEdit from "../src/TeacherScope/TeacherProfileEdit";
+import ClassesView from "../Classes";
+import ClassesEdit from "../ClassesEdit";
+
+import TeacherProfile from "../TeacherProfile";
+import TeacherProfileEdit from "../TeacherProfileEdit";
 
 const { Navigator, Screen } = createStackNavigator();
 
-export default function TeacherProfileStackRouter() {
+export function Classes() {
+  return (
+    <NavigationContainer independent={true}>
+      <Navigator>
+        <Screen name="Classes" component={ClassesView}></Screen>
+        <Screen name="ClassesEdit" component={ClassesEdit}></Screen>
+      </Navigator>
+    </NavigationContainer>
+  );
+}
+
+export function Profile() {
   return (
     <NavigationContainer independent={true}>
       <Navigator>

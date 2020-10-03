@@ -7,13 +7,10 @@ import {
   DrawerItem,
 } from "@react-navigation/drawer";
 
-import ViewGrades from "../src/TeacherScope/ViewGrades";
+import { Classes, Profile } from "./TeacherStackRouter";
+import { Activities, Quiz } from "./TeacherTabRouter";
 
-import TeacherProfileStackRouter from "./TeacherProfileStackRouter";
-import TeacherClassesStackRouter from "./TeacherClassesStackRouter";
-
-import TeacherActivitiesTabRouter from "./TeacherActivitiesTabRouter";
-import TeacherQuizTabRouter from "./TeacherQuizTabRouter";
+import ViewGrades from "../ViewGrades";
 
 const { Navigator, Screen } = createDrawerNavigator();
 
@@ -36,16 +33,10 @@ export default function TeacherDrawerRouter() {
   return (
     <NavigationContainer independent={true}>
       <Navigator drawerContent={(props) => <CustomDrawerContent {...props} />}>
-        <Screen name="Perfil" component={TeacherProfileStackRouter}></Screen>
-        <Screen
-          name="Disciplinas"
-          component={TeacherClassesStackRouter}
-        ></Screen>
-        <Screen
-          name="Atividades"
-          component={TeacherActivitiesTabRouter}
-        ></Screen>
-        <Screen name="Quizzes" component={TeacherQuizTabRouter}></Screen>
+        <Screen name="Perfil" component={Profile}></Screen>
+        <Screen name="Disciplinas" component={Classes}></Screen>
+        <Screen name="Atividades" component={Activities}></Screen>
+        <Screen name="Quizzes" component={Quiz}></Screen>
         <Screen name="Ver Notas" component={ViewGrades}></Screen>
       </Navigator>
     </NavigationContainer>

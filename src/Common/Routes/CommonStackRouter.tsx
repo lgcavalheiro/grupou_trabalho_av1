@@ -2,13 +2,13 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import Landing from "../src/Landing";
-import StudentSignIn from "../src/StudentScope/StudentSignIn";
-import TeacherSignIn from "../src/TeacherScope/TeacherSignIn";
-import CreateStudentAccount from "../src/StudentScope/CreateStudentAccount";
-import CreateTeacherAccount from "../src/TeacherScope/CreateTeacherAccount";
-import StudentDashboard from "../src/StudentScope/StudentDashboard";
-import TeacherDashboard from "../src/TeacherScope/TeacherDashboard";
+import Landing from "../Landing";
+import StudentSignIn from "../../Student/StudentSignIn";
+import TeacherSignIn from "../../Teacher/TeacherSignIn";
+import CreateStudentAccount from "../../Student/CreateStudentAccount";
+import CreateTeacherAccount from "../../Teacher/CreateTeacherAccount";
+import StudentDashboard from "../../Student/StudentDashboard";
+import TeacherDashboard from "../../Teacher/TeacherDashboard";
 
 const { Navigator, Screen } = createStackNavigator();
 
