@@ -5,8 +5,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 import ClassesView from "../Classes/Classes";
 import ClassesEdit from "../Classes/ClassesEdit";
 
-import TeacherProfile from "../Profile/TeacherProfile";
-import TeacherProfileEdit from "../Profile/TeacherProfileEdit";
+import TeacherProfile from "../Profile/Profile";
+import TeacherProfileEdit from "../Profile/ProfileEdit";
 
 const { Navigator, Screen } = createStackNavigator();
 

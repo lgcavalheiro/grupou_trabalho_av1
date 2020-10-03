@@ -7,8 +7,8 @@ import {
   DrawerItem,
 } from "@react-navigation/drawer";
 
-import { Classes, Profile } from "./TeacherStackRouter";
-import { Activities, Quiz } from "./TeacherTabRouter";
+import { Classes, Profile } from "./StackRouter";
+import { Activities, Quiz } from "./TabRouter";
 
 import ViewGrades from "../Other/ViewGrades";
 
