@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { View, Text, Button } from "react-native";
 
-export default function StudentCoursesEdit() {
+export default function () {
   const { goBack } = useNavigation();
 
   return (

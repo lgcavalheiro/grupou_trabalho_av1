@@ -1,10 +1,7 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/native";
-import { View, Text, Button } from "react-native";
+import { View, Text } from "react-native";
 
-export default function Feedback360() {
-  const { navigate } = useNavigation();
-
+export default function () {
   return (
     <View>
       <Text>FEEDBACK 360</Text>

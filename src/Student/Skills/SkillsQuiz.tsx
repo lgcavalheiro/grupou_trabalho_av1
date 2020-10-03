@@ -1,10 +1,7 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/native";
 import { View, Text, Button } from "react-native";
 
-export default function StudentSkillsQuiz() {
-  const { navigate } = useNavigation();
-
+export default function () {
   return (
     <View>
       <Text>STUDENT SKILLS Quiz</Text>

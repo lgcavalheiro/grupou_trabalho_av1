@@ -30,7 +30,7 @@ function CustomDrawerContent(props: any) {
   );
 }
 
-export default function StudentDrawerRouter() {
+export default function () {
   return (
     <NavigationContainer independent={true}>
       <Navigator drawerContent={(props) => <CustomDrawerContent {...props} />}>

@@ -12,7 +12,7 @@ import TeacherDashboard from "../../Teacher/Other/Dashboard";
 
 const { Navigator, Screen } = createStackNavigator();
 
-export default function StackRouter() {
+export default function () {
   return (
     <NavigationContainer>
       <Navigator>
