@@ -10,8 +10,8 @@ import {
 import { Courses, Profile } from "./StudentStackRouter";
 import { Group, Skills } from "./StudentTabRouter";
 
-import Feedback360 from "../Feedback360";
-import StudentGrades from "../StudentGrades";
+import Feedback360 from "../Other/Feedback360";
+import StudentGrades from "../Other/StudentGrades";
 
 const { Navigator, Screen } = createDrawerNavigator();
 

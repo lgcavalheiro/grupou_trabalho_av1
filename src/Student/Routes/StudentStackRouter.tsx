@@ -2,10 +2,10 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import StudentCourses from "../StudentCourses";
-import StudentCoursesEdit from "../StudentCoursesEdit";
-import StudentProfile from "../StudentProfile";
-import StudentProfileEdit from "../StudentProfileEdit";
+import StudentCourses from "../Courses/StudentCourses";
+import StudentCoursesEdit from "../Courses/StudentCoursesEdit";
+import StudentProfile from "../Profile/StudentProfile";
+import StudentProfileEdit from "../Profile/StudentProfileEdit";
 
 const { Navigator, Screen } = createStackNavigator();
 
