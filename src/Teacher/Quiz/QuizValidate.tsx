@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 export default function () {
   return (
     <View>
-      <Text>QUIZ VALIDATE</Text>
+      <Text>LISTA DE QUIZZES PENDENDO VALIDAÇÂO</Text>
     </View>
   );
 }

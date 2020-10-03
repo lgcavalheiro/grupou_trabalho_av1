@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
       <StackRouter />
-      <StatusBar style="dark" />
+      <StatusBar style="auto" />
     </>
   );
 }

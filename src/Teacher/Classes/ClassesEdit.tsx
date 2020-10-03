@@ -7,8 +7,14 @@ export default function () {
 
   return (
     <View>
-      <Text>CLASSES EDIT</Text>
-      <Button title="Pronto" onPress={() => goBack()}></Button>
+      <Text>FORMULÁRIO DE EDIÇÃO DAS DISCIPLINAS</Text>
+      <Button
+        title="Pronto"
+        onPress={() => {
+          alert("Disciplinas atualizadas com sucesso!");
+          goBack();
+        }}
+      ></Button>
     </View>
   );
 }

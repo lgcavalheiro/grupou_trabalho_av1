@@ -7,8 +7,14 @@ export default function () {
 
   return (
     <View>
-      <Text>STUDENT PROFILE EDIT</Text>
-      <Button title="Pronto" onPress={() => goBack()}></Button>
+      <Text>FORMULÁRIO DE EDIÇÃO DE PERFIL DE ALUNO</Text>
+      <Button
+        title="Pronto"
+        onPress={() => {
+          alert("Perfil atualizado com sucesso!");
+          goBack();
+        }}
+      ></Button>
     </View>
   );
 }

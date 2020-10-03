@@ -7,10 +7,13 @@ export default function () {
 
   return (
     <View>
-      <Text>CREATE STUDENT ACCOUNT</Text>
+      <Text>FORMULARIO DE CRIAÇÃO DE CONTA DE ALUNO</Text>
       <Button
-        title="<STUDENT ACCOUNT CREATED>"
-        onPress={() => goBack()}
+        title="Criar minha conta de aluno"
+        onPress={() => {
+          alert("Conta criada com sucesso!");
+          goBack();
+        }}
       ></Button>
     </View>
   );

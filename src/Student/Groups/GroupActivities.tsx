@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 export default function () {
   return (
     <View>
-      <Text>STUDENT GROUP ACTIVITIES</Text>
+      <Text>ATIVIDADES DO GRUPO SELECIONADO EM GROUPS.TSX</Text>
     </View>
   );
 }

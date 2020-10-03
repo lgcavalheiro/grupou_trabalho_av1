@@ -1,10 +1,16 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, Button } from "react-native";
 
 export default function () {
   return (
     <View>
-      <Text>ACTIVITIES EDIT</Text>
+      <Text>FORMULÁRIO PARA EDIÇÃO DE ATIVIDADES</Text>
+      <Button
+        title="Pronto"
+        onPress={() => {
+          alert("Atividades atualizadas com sucesso!");
+        }}
+      ></Button>
     </View>
   );
 }

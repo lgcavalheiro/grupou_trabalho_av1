@@ -7,10 +7,13 @@ export default function () {
 
   return (
     <View>
-      <Text>CREATE TEACHER ACCOUNT</Text>
+      <Text>FORMULARIO DE CRIAÇÃO DE CONTA DE PROFESSOR</Text>
       <Button
-        title="<TEACHER ACCOUNT CREATED>"
-        onPress={() => goBack()}
+        title="Criar minha conta de professor"
+        onPress={() => {
+          alert("Conta criada com sucesso!");
+          goBack();
+        }}
       ></Button>
     </View>
   );

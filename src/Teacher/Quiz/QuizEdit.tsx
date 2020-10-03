@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 export default function () {
   return (
     <View>
-      <Text>QUIZ EDIT</Text>
+      <Text>FORMULÁRIO PARA EDIÇÃO DE QUIZZES JÁ CRIADOS</Text>
     </View>
   );
 }

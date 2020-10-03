@@ -1,5 +1,5 @@
 import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer, useNavigation } from "@react-navigation/native";
 import {
   createDrawerNavigator,
   DrawerContentScrollView,
@@ -16,16 +16,17 @@ import StudentGrades from "../Other/Grades";
 const { Navigator, Screen } = createDrawerNavigator();
 
 function CustomDrawerContent(props: any) {
+  const { navigate } = useNavigation();
+
   return (
     <DrawerContentScrollView {...props}>
-      <DrawerItemList {...props}>
-        <DrawerItem
-          label="Logout"
-          onPress={() => {
-            console.log("Landing");
-          }}
-        />
-      </DrawerItemList>
+      <DrawerItemList {...props} />
+      <DrawerItem
+        label="Sair &times;"
+        onPress={() => {
+          navigate("Landing");
+        }}
+      />
     </DrawerContentScrollView>
   );
 }

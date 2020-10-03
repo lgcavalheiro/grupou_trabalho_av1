@@ -7,7 +7,9 @@ export default function () {
 
   return (
     <View>
-      <Text>STUDENT COURSES</Text>
+      <Text>
+        LISTA COM OS CURSOS DO ALUNO {"\n\n"}- Curso 1; {"\n"}- Curso 2; {"\n"}
+      </Text>
       <Button
         title="Adicionar curso"
         onPress={() => {

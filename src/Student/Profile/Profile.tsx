@@ -7,7 +7,7 @@ export default function () {
 
   return (
     <View>
-      <Text>STUDENT PROFILE</Text>
+      <Text>PERFIL DE ALUNO</Text>
       <Button
         title="Editar Perfil"
         onPress={() => navigate("StudentProfileEdit")}

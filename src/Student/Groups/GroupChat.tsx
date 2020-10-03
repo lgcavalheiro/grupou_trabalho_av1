@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 export default function () {
   return (
     <View>
-      <Text>STUDENT GROUP CHAT</Text>
+      <Text>CHAT DO GRUPO SELECIONADO EM GROUPS.TSX</Text>
     </View>
   );
 }

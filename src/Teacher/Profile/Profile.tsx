@@ -7,7 +7,7 @@ export default function () {
 
   return (
     <View>
-      <Text>TEACHER PROFILE</Text>
+      <Text>PERFIL DE PROFESSOR</Text>
       <Button
         title="Editar Perfil"
         onPress={() => navigate("TeacherProfileEdit")}
