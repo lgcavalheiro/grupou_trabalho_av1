@@ -4,11 +4,11 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import Landing from "../Landing";
 import StudentSignIn from "../../Student/PreAuth/StudentSignIn";
-import TeacherSignIn from "../../Teacher/TeacherSignIn";
+import TeacherSignIn from "../../Teacher/PreAuth/TeacherSignIn";
 import CreateStudentAccount from "../../Student/PreAuth/CreateStudentAccount";
-import CreateTeacherAccount from "../../Teacher/CreateTeacherAccount";
+import CreateTeacherAccount from "../../Teacher/PreAuth/CreateTeacherAccount";
 import StudentDashboard from "../../Student/Other/StudentDashboard";
-import TeacherDashboard from "../../Teacher/TeacherDashboard";
+import TeacherDashboard from "../../Teacher/Other/TeacherDashboard";
 
 const { Navigator, Screen } = createStackNavigator();
 

@@ -10,7 +10,7 @@ import {
 import { Classes, Profile } from "./TeacherStackRouter";
 import { Activities, Quiz } from "./TeacherTabRouter";
 
-import ViewGrades from "../ViewGrades";
+import ViewGrades from "../Other/ViewGrades";
 
 const { Navigator, Screen } = createDrawerNavigator();
 

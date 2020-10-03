@@ -2,13 +2,13 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import ActivitiesView from "../Activities";
-import ActivitiesEdit from "../ActivitiesEdit";
-import ActivitiesGrades from "../ActivitiesGrades";
+import ActivitiesView from "../Activities/Activities";
+import ActivitiesEdit from "../Activities/ActivitiesEdit";
+import ActivitiesGrades from "../Activities/ActivitiesGrades";
 
-import QuizView from "../Quiz";
-import QuizEdit from "../QuizEdit";
-import QuizValidate from "../QuizValidate";
+import QuizView from "../Quiz/Quiz";
+import QuizEdit from "../Quiz/QuizEdit";
+import QuizValidate from "../Quiz/QuizValidate";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
